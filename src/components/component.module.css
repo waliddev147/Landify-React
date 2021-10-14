@@ -1,0 +1,104 @@
+.Header {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  max-width: 1110px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.image {
+  width: 100px;
+  object-fit: cover;
+}
+.Menu {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.text {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.text:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.text1 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.text1:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.text2 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.text2:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.text3 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.text3:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.text4 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.text4:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.text5 {
+  transition: 0.3s;
+}
+.text5:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Menu1 {
+  width: 24px;
+  height: 24px;
+  display: none;
+  margin-left: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .container {
+    display: none;
+  }
+  .Menu1 {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .Menu {
+    display: none;
+  }
+  .Menu1 {
+    display: block;
+  }
+}
+@media(max-width: 479px) {
+  .container {
+    display: none;
+  }
+}
